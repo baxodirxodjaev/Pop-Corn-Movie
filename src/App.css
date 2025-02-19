@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+/*  slick-carousel */
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+
+body{
+    background-color: rgba(16, 23, 40, 0.907);
+    color: white;
+}
