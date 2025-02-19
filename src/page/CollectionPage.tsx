@@ -10,7 +10,7 @@ const CollectionPage = () => {
     isError,
   } = useFetchCollection(collectionId);
 
-  console.log(collection);
+ 
 
   if (isLoading) return <Loading />;
   if (isError) return <p className="text-red-500">{isError}</p>;
@@ -34,7 +34,7 @@ const CollectionPage = () => {
       <p className="text-gray-300 mb-6">{collection.overview}</p>
 
       <h2 className="text-2xl font-semibold text-white mb-4">
-        Фильмы в коллекции:
+        Movies in the collection:
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
         {collection.parts.map((movie) => (

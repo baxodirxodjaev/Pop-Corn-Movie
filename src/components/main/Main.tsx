@@ -6,7 +6,7 @@ interface MainChildren{
 
 const Main = ({children}: MainChildren) => {
   return (
-    <section className=" mt-[50px] container mx-auto  ">
+    <section className="  container mx-auto  ">
         <div className="">
           {  children}
         </div>

@@ -54,7 +54,6 @@ function App() {
             <Route path="/search/:searchQuery" element={<SearchResults />} />
           </Routes>
 
-           <Top_Navigation /> 
 
           <Main>
             <Routes>
@@ -67,6 +66,7 @@ function App() {
             </Routes>
           </Main>
 
+           <Top_Navigation /> 
 
           <Footer />
         </Router>
